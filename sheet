@@ -1,0 +1,3 @@
+View all globally installed NPM packages
+
+npm list -g --depth 0

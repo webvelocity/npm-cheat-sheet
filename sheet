@@ -1,3 +1,8 @@
-View all globally installed NPM packages
+# View all globally installed NPM packages
 
 npm list -g --depth 0
+
+
+# Uninstall modules globally 
+
+npm uninstall -g <module name> --save

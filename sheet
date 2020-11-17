@@ -6,3 +6,13 @@ npm list -g --depth 0
 # Uninstall modules globally 
 
 npm uninstall -g <module name> --save
+
+
+#npm run not working
+
+Check its current setting by running:
+
+npm config get ignore-scripts
+If the aforementioned command returns true then reset it to false by running:
+
+npm config set ignore-scripts false
